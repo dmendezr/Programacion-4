@@ -12,9 +12,13 @@ namespace AppAdivinanza
 {
     public partial class Form1 : Form
     {
+        public static List<Pregunta> ListadoPregunta;
+        public static int ConsecutivoPreguntas;
         public Form1()
         {
             InitializeComponent();
+            ConsecutivoPreguntas = 0;
+            ListadoPregunta = new List<Pregunta>();
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
@@ -22,6 +26,11 @@ namespace AppAdivinanza
             AppAdivinanza.MatPreguntas frmMatPreguntas = new MatPreguntas();
             frmMatPreguntas.MdiParent = this;
             frmMatPreguntas.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
