@@ -32,5 +32,12 @@ namespace AppAdivinanza
         {
 
         }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            AppAdivinanza.frmAdivinanzas objFrmdivinanzas = new frmAdivinanzas();
+            objFrmdivinanzas.MdiParent = this;
+            objFrmdivinanzas.Show();
+        }
     }
 }
