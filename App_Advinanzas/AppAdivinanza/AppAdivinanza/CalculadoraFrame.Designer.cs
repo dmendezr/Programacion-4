@@ -35,6 +35,7 @@
             this.txtNum3 = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNum1
@@ -82,7 +83,7 @@
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
             this.btnCalcular.TabIndex = 5;
-            this.btnCalcular.Text = "button1";
+            this.btnCalcular.Text = "Sumar";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
@@ -95,11 +96,22 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Resultado";
             // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Location = new System.Drawing.Point(170, 251);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(97, 79);
+            this.btnSalvar.TabIndex = 7;
+            this.btnSalvar.Text = "button1";
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            // 
             // CalculadoraFrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(539, 428);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtNum3);
@@ -109,6 +121,7 @@
             this.Controls.Add(this.txtNum1);
             this.Name = "CalculadoraFrame";
             this.Text = "CalculadoraFrame";
+            this.Load += new System.EventHandler(this.CalculadoraFrame_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,5 +136,6 @@
         private System.Windows.Forms.TextBox txtNum3;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnSalvar;
     }
 }

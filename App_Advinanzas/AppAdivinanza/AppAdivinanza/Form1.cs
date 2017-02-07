@@ -39,5 +39,19 @@ namespace AppAdivinanza
             objFrmdivinanzas.MdiParent = this;
             objFrmdivinanzas.Show();
         }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            AppAdivinanza.CalculadoraFrame objCalculadora = new CalculadoraFrame();
+            objCalculadora.MdiParent = this;
+            objCalculadora.Show();
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            AppAdivinanza.Pruebas objPruebas = new Pruebas();
+            objPruebas.MdiParent = this;
+            objPruebas.Show();
+        }
     }
 }

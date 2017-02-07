@@ -74,6 +74,18 @@
     <Compile Include="Pregunta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prueba2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prueba2.Designer.cs">
+      <DependentUpon>Prueba2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas.Designer.cs">
+      <DependentUpon>Pruebas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Respusta.cs" />
     <EmbeddedResource Include="CalculadoraFrame.resx">
       <DependentUpon>CalculadoraFrame.cs</DependentUpon>
@@ -97,6 +109,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Prueba2.resx">
+      <DependentUpon>Prueba2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas.resx">
+      <DependentUpon>Pruebas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -112,6 +130,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Pregunta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salvar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
