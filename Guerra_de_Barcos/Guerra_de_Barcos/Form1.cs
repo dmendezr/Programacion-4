@@ -12,6 +12,7 @@ namespace Guerra_de_Barcos
 {
     public partial class Form1 : Form
     {
+        //Comentario
         public static List<Posicion> listaPosicionEnemigo = new List<Posicion>();
         public static List<Posicion> listaPosicionJugador = new List<Posicion>();
         public Form1()
