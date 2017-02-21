@@ -41,7 +41,7 @@ namespace Guerra_de_Barcos
             for (int i = 1; i < 2; i++)
             {
                 Random rdn1 = new Random();
-                int numeroAleatorio = rdn1.Next(0, 1);//Aleatorio para el indice del arreglo
+                int numeroAleatorio = rdn1.Next(0, 2);//Aleatorio para el indice del arreglo
                 listaPosicionEnemigo[Convert.ToInt32(numeroAleatorio)].contieneBarco = true; //Setear aleatoriamente segun el numero de indice
             }
         }
