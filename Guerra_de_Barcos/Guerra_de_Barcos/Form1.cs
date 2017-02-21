@@ -12,12 +12,51 @@ namespace Guerra_de_Barcos
 {
     public partial class Form1 : Form
     {
+        public static List<Posicion> listaPosicionEnemigo = new List<Posicion>();
+        public static List<Posicion> listaPosicionJugador = new List<Posicion>();
         public Form1()
         {
             InitializeComponent();
+            LlenarArreglo();
+            ColocarBarcosEnemigo();
+        }
+
+        public static void LlenarArreglo()
+        {
+            Posicion objPosicion = new Posicion();
+            objPosicion.Boton = "btnCampo1";
+            objPosicion.contieneBarco = false;
+            objPosicion.propio = false;
+            listaPosicionEnemigo.Add(objPosicion);
+            objPosicion = new Posicion();
+            objPosicion.Boton = "btnCampo2";
+            objPosicion.contieneBarco = false;
+            objPosicion.propio = false;
+            listaPosicionEnemigo.Add(objPosicion);
+        }
+
+        public static void ColocarBarcosEnemigo()
+        {
+            for (int i = 1; i < 2; i++)
+            {
+                Random rdn1 = new Random();
+                int numeroAleatorio = rdn1.Next(0, 1);
+                listaPosicionEnemigo[Convert.ToInt32(numeroAleatorio)].contieneBarco = true;
+            }
         }
 
         private void button9_Click(object sender, EventArgs e)
+        {
+            
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCampo15_Click(object sender, EventArgs e)
         {
 
         }
