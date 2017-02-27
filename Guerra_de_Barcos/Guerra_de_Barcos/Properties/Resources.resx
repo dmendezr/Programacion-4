@@ -121,8 +121,17 @@
   <data name="Aliado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Aliado.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Barco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConBarco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConBarco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Enemigo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Enemigo.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SinBarco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SinBarco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_26256hd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\26256hd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
