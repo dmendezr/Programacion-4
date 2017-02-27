@@ -377,167 +377,182 @@ namespace Guerra_de_Barcos
                 switch (indice)
                 {
                     case 0:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo16.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo16.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                          }
                     break;
                     case 1:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo17.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
-                        {
+                        else if (listaPosicionJugador[indice].propio == false)
+                    {
                             btnCampo17.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 2:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo18.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
-                        {
+                        else if (listaPosicionJugador[indice].propio == false)
+                    {
                             btnCampo18.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                             
                         }
                         break;
                     case 3:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo19.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
-                        {
+                        else if (listaPosicionJugador[indice].propio == false)
+                    {
                             btnCampo19.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 4:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo20.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo20.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 5:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo21.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo21.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 6:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo22.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo22.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 7:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo23.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                        listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo23.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 8:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo24.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo24.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 9:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo25.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo25.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 10:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo26.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo26.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 11:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo27.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo27.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 12:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo28.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo28.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 13:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo29.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo29.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
                         break;
                     case 14:
-                        if (listaPosicionJugador[indice].contieneBarco)
+                        if (listaPosicionJugador[indice].contieneBarco && listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo30.Image = global::Guerra_de_Barcos.Properties.Resources.ConBarco;
                             puntajeEnemigo++;
+                            listaPosicionJugador[indice].propio = true;
                         }
-                        else
+                        else if (listaPosicionJugador[indice].propio == false)
                         {
                             btnCampo30.Image = global::Guerra_de_Barcos.Properties.Resources.SinBarco;
                         }
