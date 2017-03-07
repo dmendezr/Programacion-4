@@ -33,8 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -89,6 +92,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\26256hd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConBarco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SinBarco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barco.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
