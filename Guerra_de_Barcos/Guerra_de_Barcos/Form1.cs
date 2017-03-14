@@ -276,6 +276,7 @@ namespace Guerra_de_Barcos
 
         }
 
+
         public void BloquearBotonesJugador()
         {
             btnCampo16.Enabled = false;
@@ -294,6 +295,7 @@ namespace Guerra_de_Barcos
             btnCampo29.Enabled = false;
             btnCampo30.Enabled = false;
         }
+
 
         public void MostrarBotonesJugador()
         {
@@ -587,6 +589,7 @@ namespace Guerra_de_Barcos
                 lblBarcoEne1.Visible = false;
             }
         }
+
         public void pintarBarcosEnemigo()
         {
             if (puntajeEnemigo == 1)
@@ -606,6 +609,7 @@ namespace Guerra_de_Barcos
                 lblBarcoJug1.Visible = false;
             }
         }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             BloquearBotonesJugador();
